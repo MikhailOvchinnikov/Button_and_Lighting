@@ -96,7 +96,7 @@ int main(void)
 		if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13))
 		{
 			HAL_Delay(100);
-			if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13))
+		if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13))
 			{
 				HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
 			}
